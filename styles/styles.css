@@ -304,12 +304,7 @@ body {
   margin-top: 8px;
 }
 
-.team-soc-item {
-}
-
 .team-soc-link {
-  width: 40px;
-  height: 40px;
   background-color: #4d5ae5;
   border-radius: 50%;
   display: flex;
@@ -322,10 +317,10 @@ body {
 .team-soc-icon {
   fill: #f4f4fd;
 }
-
 .team-soc-link:is(:hover, :focus) {
-  background-color: var(--hover-button-color);
+  background-color: #404bbf;
 }
+
 /*--------
 .team-list {
   display: flex;
