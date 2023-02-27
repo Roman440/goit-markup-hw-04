@@ -497,3 +497,44 @@ body {
   line-height: 1.5em;
   letter-spacing: 0.02em;
 }
+
+.footer-team-soc-item {
+  display: flex;
+  align-items: baseline;
+}
+.footer-social {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: var(--primary-white-color);
+  margin-left: 120px;
+}
+.footer-social-media,
+.footer-team-soc-list {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  margin-top: 8px;
+  width: calc((100%));
+}
+
+.footer-team-soc-link {
+  width: 40px;
+  height: 40px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  transition: color 250ms var(--cubic), background-color 250ms var(--cubic);
+}
+
+.footer-team-soc-icon {
+  fill: rgba(255, 255, 255, 0.1);
+}
+
+.footer-team-soc-link:is(:hover, :focus) {
+  background: #31d0aa;
+}
